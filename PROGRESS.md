@@ -17,7 +17,7 @@ chat to know exactly where things stand — check SCOPE.md only for "what/why" b
 - [x] GitHub repo created and connected (Android Studio VCS → Share Project on GitHub)
 
 ## Current Status (as of 2026-07-08)
-**Phase 0: Environment Setup** — in progress
+**Phase 1: Class creations** — in progress
 - [x] Match.kt, Team.kt, Player.kt, Innings.kt, Over.kt, Ball.kt,
                  MatchState.kt - created
 - [x] MatchDao.kt, InningsDao.kt, BallDao.kt, AppDatabase.kt, Converters.kt - created
@@ -38,12 +38,7 @@ chat to know exactly where things stand — check SCOPE.md only for "what/why" b
   only for v1
 
 ## Next Session Should Start With
-1. Confirm Android Studio installed
-2. Walk through creating the project step-by-step (detailed, zero-assumed-knowledge)
-3. Confirm first run works on founder's phone via USB
-4. Wire in theme files from `/android-src` (already drafted, see repo)
-5. Set up GitHub sharing from within Android Studio
-6. THEN start actual Phase 1 code: `data/model/` classes first (Match, Team, Player, etc.)
+1. Continue actual Phase 1 code: remaining `data/model/` classes , and other classes
 
 ## Session Log
 - **2026-07-08**: Full spec created and iterated — vision, two-device model, phased
