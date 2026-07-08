@@ -1,0 +1,60 @@
+<svg width="600" height="220" viewBox="0 0 600 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldBg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D9B65C"/>
+      <stop offset="45%" stop-color="#B8860B"/>
+      <stop offset="100%" stop-color="#8A6412"/>
+    </linearGradient>
+    <linearGradient id="goldText2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FDF3D7"/>
+      <stop offset="45%" stop-color="#E8C875"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="600" height="220" fill="#FBF6E9"/>
+
+  <!-- small badge -->
+  <rect x="20" y="30" width="160" height="160" rx="36" fill="url(#goldBg2)"/>
+  <g transform="translate(20,30) scale(0.3125)">
+    <path d="M150 148
+             L150 372
+             L196 372
+             L196 268
+             L228 268
+             C282 268 314 240 314 200
+             C314 160 282 148 232 148
+             Z
+             M196 190
+             L226 190
+             C252 190 266 195 266 208
+             C266 222 252 226 226 226
+             L196 226
+             Z"
+          fill="url(#goldText2)" stroke="#6B4E00" stroke-width="6"/>
+    <path d="M292 330
+             C300 358 328 378 372 378
+             C412 378 440 358 440 328
+             C440 300 420 286 380 276
+             L356 270
+             C344 267 338 262 338 254
+             C338 244 350 238 366 238
+             C382 238 394 244 398 258
+             L438 246
+             C428 214 402 196 368 196
+             C330 196 302 216 302 246
+             C302 272 320 286 358 296
+             L382 302
+             C396 306 404 311 404 320
+             C404 332 390 338 372 338
+             C352 338 338 330 332 314
+             Z"
+          fill="url(#goldText2)" stroke="#6B4E00" stroke-width="6"/>
+    <rect x="120" y="368" width="290" height="16" rx="8" transform="rotate(-28 265 376)" fill="#3B2A0A" opacity="0.85"/>
+    <circle cx="118" cy="392" r="13" fill="#3B2A0A" opacity="0.85"/>
+  </g>
+
+  <!-- wordmark -->
+  <text x="205" y="120" font-family="Arial, sans-serif" font-weight="800" font-size="52" fill="#2A2A2A">PSCricket<tspan fill="#B8860B">Live</tspan></text>
+  <text x="207" y="150" font-family="Arial, sans-serif" font-weight="600" font-size="20" letter-spacing="3" fill="#8A6412">SCORE &amp; BROADCAST</text>
+</svg>
