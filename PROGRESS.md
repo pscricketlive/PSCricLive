@@ -3,7 +3,14 @@
 _Update this file at the end of every session. Claude should read this first in any new
 chat to know exactly where things stand — check SCOPE.md only for "what/why" background._
 
+
 ## Current Status (as of 2026-07-08)
+**Phase 1: Class creations** — in progress
+- [x] Match.kt, Team.kt, Player.kt, Innings.kt, Over.kt, Ball.kt,
+                 MatchState.kt - created
+- [x] MatchDao.kt, InningsDao.kt, BallDao.kt, AppDatabase.kt, Converters.kt - created
+
+## Previous Status (as of 2026-07-08)
 **Phase 0: Environment Setup** — Completed
 - [x] Project spec, data model, phased roadmap agreed
 - [x] Theme files drafted (Color.kt, Type.kt, Theme.kt, BrandConfig.kt) — added to
@@ -15,12 +22,6 @@ chat to know exactly where things stand — check SCOPE.md only for "what/why" b
 - [x] First run confirmed (on emulator pixel 8 running on android 14)
 - [x] Theme files wired into project
 - [x] GitHub repo created and connected (Android Studio VCS → Share Project on GitHub)
-
-## Current Status (as of 2026-07-08)
-**Phase 1: Class creations** — in progress
-- [x] Match.kt, Team.kt, Player.kt, Innings.kt, Over.kt, Ball.kt,
-                 MatchState.kt - created
-- [x] MatchDao.kt, InningsDao.kt, BallDao.kt, AppDatabase.kt, Converters.kt - created
       
 
 
