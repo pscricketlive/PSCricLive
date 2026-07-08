@@ -6,15 +6,15 @@ chat to know exactly where things stand — check SCOPE.md only for "what/why" b
 ## Current Status (as of 2026-07-08)
 **Phase 0: Environment Setup** — in progress
 - [x] Project spec, data model, phased roadmap agreed
-- [x] Theme files drafted (Color.kt, Type.kt, Theme.kt, BrandConfig.kt) — not yet added to
+- [x] Theme files drafted (Color.kt, Type.kt, Theme.kt, BrandConfig.kt) — added to
       an actual Android Studio project
 - [x] Logo assets created (icon_mark.svg, logo_full.svg)
-- [ ] Android Studio installed
-- [ ] First project created (`PSCricketLive`, package `com.pscricketlive`, Empty Activity,
-      Kotlin) — **not created yet**
-- [ ] First run confirmed (on real device via USB — decided against emulator due to i3 CPU)
-- [ ] Theme files wired into project
-- [ ] GitHub repo created and connected (Android Studio VCS → Share Project on GitHub)
+- [x] Android Studio installed
+- [x] First project created (`PSCricketLive`, package `com.pscricketlive`, Empty Activity,
+      Kotlin) — created
+- [x] First run confirmed (on emulator pixel 8 running on android 14)
+- [x] Theme files wired into project
+- [x] GitHub repo created and connected (Android Studio VCS → Share Project on GitHub)
 
 ## Decisions Locked So Far
 - Kotlin native, not Flutter (see SCOPE.md for reasoning)
