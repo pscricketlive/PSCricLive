@@ -105,7 +105,7 @@ data/
   model/        Match.kt, Team.kt, Player.kt, Innings.kt, Over.kt, Ball.kt,
                  MatchState.kt, DeviceSession.kt, StreamRequest.kt, Recording.kt,
                  ExternalStat.kt, Payment.kt, Rating.kt
-  local/        MatchDao.kt, InningsDao.kt, BallDao.kt, AppDatabase.kt
+  local/        MatchDao.kt, InningsDao.kt, BallDao.kt, AppDatabase.kt, Converters.kt
   remote/       FirestoreMatchSource.kt, FirestoreSyncManager.kt
   repository/   MatchRepository.kt, ScoringRepository.kt
 
